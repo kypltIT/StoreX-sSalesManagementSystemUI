@@ -62,9 +62,9 @@
             this.panel4.Controls.Add(this.txtUsername);
             this.panel4.Controls.Add(this.btnSubmit);
             this.panel4.Controls.Add(this.label3);
-            this.panel4.Location = new System.Drawing.Point(435, 114);
+            this.panel4.Location = new System.Drawing.Point(479, 167);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(456, 448);
+            this.panel4.Size = new System.Drawing.Size(369, 374);
             this.panel4.TabIndex = 5;
             // 
             // lblBackToLogin
@@ -72,7 +72,7 @@
             this.lblBackToLogin.AutoSize = true;
             this.lblBackToLogin.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lblBackToLogin.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.lblBackToLogin.Location = new System.Drawing.Point(180, 318);
+            this.lblBackToLogin.Location = new System.Drawing.Point(137, 303);
             this.lblBackToLogin.Name = "lblBackToLogin";
             this.lblBackToLogin.Size = new System.Drawing.Size(101, 20);
             this.lblBackToLogin.TabIndex = 10;
@@ -83,16 +83,16 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(133, 93);
+            this.label5.Location = new System.Drawing.Point(94, 93);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(192, 31);
+            this.label5.Size = new System.Drawing.Size(202, 31);
             this.label5.TabIndex = 9;
-            this.label5.Text = "Forgot Password";
+            this.label5.Text = "Forgot Password?";
             // 
             // txtUsername
             // 
             this.txtUsername.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.txtUsername.Location = new System.Drawing.Point(99, 202);
+            this.txtUsername.Location = new System.Drawing.Point(56, 187);
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(277, 30);
             this.txtUsername.TabIndex = 6;
@@ -103,11 +103,12 @@
             this.btnSubmit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnSubmit.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnSubmit.FlatAppearance.BorderSize = 0;
+            this.btnSubmit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSubmit.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnSubmit.ForeColor = System.Drawing.Color.White;
-            this.btnSubmit.Location = new System.Drawing.Point(99, 238);
+            this.btnSubmit.Location = new System.Drawing.Point(56, 225);
             this.btnSubmit.Name = "btnSubmit";
-            this.btnSubmit.Size = new System.Drawing.Size(277, 43);
+            this.btnSubmit.Size = new System.Drawing.Size(277, 38);
             this.btnSubmit.TabIndex = 5;
             this.btnSubmit.Text = "Submit";
             this.btnSubmit.UseVisualStyleBackColor = false;
@@ -117,7 +118,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label3.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.label3.Location = new System.Drawing.Point(101, 173);
+            this.label3.Location = new System.Drawing.Point(58, 158);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(265, 20);
             this.label3.TabIndex = 4;
