@@ -52,6 +52,12 @@
     <Compile Include="frmCategory.Designer.cs">
       <DependentUpon>frmCategory.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmInventoryUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInventoryUpdate.Designer.cs">
+      <DependentUpon>frmInventoryUpdate.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,6 +87,12 @@
     </Compile>
     <Compile Include="Model\frmCustomerAdd.Designer.cs">
       <DependentUpon>frmCustomerAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\frmOrderAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Model\frmOrderAdd.Designer.cs">
+      <DependentUpon>frmOrderAdd.cs</DependentUpon>
     </Compile>
     <Compile Include="Model\frmProductAdd.cs">
       <SubType>Form</SubType>
@@ -131,11 +143,35 @@
     <Compile Include="View\frmCustomerView.Designer.cs">
       <DependentUpon>frmCustomerView.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\frmInventoryStatisticsByProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmInventoryStatisticsByProduct.Designer.cs">
+      <DependentUpon>frmInventoryStatisticsByProduct.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\frmProductView.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="View\frmProductView.Designer.cs">
       <DependentUpon>frmProductView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmProfitByEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmProfitByEmployee.Designer.cs">
+      <DependentUpon>frmProfitByEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmProfitByProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmProfitByProduct.Designer.cs">
+      <DependentUpon>frmProfitByProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmSalesRevenueByDate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmSalesRevenueByDate.Designer.cs">
+      <DependentUpon>frmSalesRevenueByDate.cs</DependentUpon>
     </Compile>
     <Compile Include="View\frmUserView.cs">
       <SubType>Form</SubType>
@@ -151,6 +187,9 @@
     <EmbeddedResource Include="frmCategory.resx">
       <DependentUpon>frmCategory.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmInventoryUpdate.resx">
+      <DependentUpon>frmInventoryUpdate.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
@@ -165,6 +204,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Model\frmCustomerAdd.resx">
       <DependentUpon>frmCustomerAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Model\frmOrderAdd.resx">
+      <DependentUpon>frmOrderAdd.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Model\frmProductAdd.resx">
       <DependentUpon>frmProductAdd.cs</DependentUpon>
@@ -191,8 +233,20 @@
     <EmbeddedResource Include="View\frmCustomerView.resx">
       <DependentUpon>frmCustomerView.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="View\frmInventoryStatisticsByProduct.resx">
+      <DependentUpon>frmInventoryStatisticsByProduct.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\frmProductView.resx">
       <DependentUpon>frmProductView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmProfitByEmployee.resx">
+      <DependentUpon>frmProfitByEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmProfitByProduct.resx">
+      <DependentUpon>frmProfitByProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmSalesRevenueByDate.resx">
+      <DependentUpon>frmSalesRevenueByDate.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\frmUserView.resx">
       <DependentUpon>frmUserView.cs</DependentUpon>
